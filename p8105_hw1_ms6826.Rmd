@@ -54,7 +54,7 @@ mean(pull(dataframe_pb2, variable2), na.rm = TRUE)
 mean(pull(dataframe_pb2, variable3), na.rm = TRUE)
 mean(pull(dataframe_pb2, variable4), na.rm = TRUE)
 ```
-### taking mean of variables 1 and 2 works, but not for 3 and 4
+### taking mean of variables 1 and 2 works (but I'm unsure where the mean of 0.2 is coming from for variable 2), but not for 3 and 4
 
 ```{r, eval=FALSE}
 as.numeric(pull(dataframe_pb2, variable2), na.rm = TRUE)
